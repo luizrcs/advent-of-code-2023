@@ -46,11 +46,11 @@ fun main() {
 		}
 	}
 
-	val testInput = readInputLines("day_2_test")
+	val testInput = readInputLines(true)
 	checkEquals(partOne(testInput), 8)
 	checkEquals(partTwo(testInput), 2286)
 
-	val input = readInputLines("day_2")
+	val input = readInputLines()
 	println("Part one: ${partOne(input)}")
 	println("Part two: ${partTwo(input)}")
 }

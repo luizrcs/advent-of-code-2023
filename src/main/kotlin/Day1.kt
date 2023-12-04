@@ -54,13 +54,13 @@ fun main() {
 		}
 	}
 
-	val testInputOne = readInputLines("day_1_test_1")
+	val testInputOne = readInputLines(true, 1)
 	checkEquals(partOne(testInputOne), 142)
 
-	val testInputTwo = readInputLines("day_1_test_2")
+	val testInputTwo = readInputLines(true, 2)
 	checkEquals(partTwo(testInputTwo), 281)
 
-	val input = readInputLines("day_1")
+	val input = readInputLines()
 	println("Part one: ${partOne(input)}")
 	println("Part two: ${partTwo(input)}")
 }
